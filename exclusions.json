@@ -1,0 +1,37 @@
+[
+	{"id": "1",
+	"name": "Cisco AMP",
+	"exclusions": {
+		"process_path": [
+			"*\\Program Files\\Cisco\\AMP\\*\\ConnectivityTool.exe",
+			"*\\Program Files\\Cisco\\AMP\\*\\creport.exe",
+			"*\\Program Files\\Cisco\\AMP\\*\\ipsupporttool.exe",
+			"*\\Program Files\\Cisco\\AMP\\*\\iptray.exe",
+			"*\\Program Files\\Cisco\\AMP\\*\\sfc.exe",
+			"*\\Program Files\\Cisco\\AMP\\*\\uninstall.exe",
+			"*\\Program Files\\Cisco\\AMP\\*\\updater.exe",
+			"*\\Program Files\\Cisco\\AMP\\clamav\\*\\freshclam.exe",
+			"*\\Program Files\\Cisco\\AMP\\clamav\\*\\freshclamwrap.exe"
+			],
+			"folder_path": [
+				"*\\Program Files\\Cisco\\AMP\\*"
+			]
+		}
+	},
+	{"id": "2",
+	"name": "Windows Defender",
+	"exclusions": {
+		"process_path": [
+			"*\\Program Files\\Microsoft Security*\\MsMpEng.exe",
+			"*\\Program Files (x86)\\Microsoft Security*\\MsMpEng.exe",
+			"*\\Program Files\\Windows Defender\\MsMpEng.exe",
+			"*\\Program Files (x86)\\Windows Defender\\MsMpEng.exe",
+			"*\\Program Files\\Microsoft Forefront\\Client Security\\Client\\Antimalware\\MsMpEng.exe",
+			"*\\Program Files (x86)\\Microsoft Forefront\\Client Security\\Client\\Antimalware\\MsMpEng.exe",
+			"*\\Program Files\\Microsoft\\Windows Defender\\Platform\\*\\MsMpEng.exe",
+			"*\\Program Files (x86)\\Microsoft\\Windows Defender\\Platform\\*\\MsMpEng.exe",
+			"*\\ProgramData\\Microsoft\\Windows Defender\\platform\\*\\MsMpEng.exe"
+			]
+		}
+	}
+]
